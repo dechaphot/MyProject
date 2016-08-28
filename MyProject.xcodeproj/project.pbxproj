@@ -54,14 +54,30 @@
 		08982DBA1D733AC20090D740 /* MyProject */ = {
 			isa = PBXGroup;
 			children = (
+				08982DCE1D733C0C0090D740 /* Controllers */,
+				08982DCD1D733BED0090D740 /* StoryBoards */,
 				08982DBB1D733AC20090D740 /* AppDelegate.swift */,
-				08982DBD1D733AC20090D740 /* ViewController.swift */,
-				08982DBF1D733AC20090D740 /* Main.storyboard */,
 				08982DC21D733AC20090D740 /* Assets.xcassets */,
 				08982DC41D733AC30090D740 /* LaunchScreen.storyboard */,
 				08982DC71D733AC30090D740 /* Info.plist */,
 			);
 			path = MyProject;
+			sourceTree = "<group>";
+		};
+		08982DCD1D733BED0090D740 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				08982DBF1D733AC20090D740 /* Main.storyboard */,
+			);
+			name = StoryBoards;
+			sourceTree = "<group>";
+		};
+		08982DCE1D733C0C0090D740 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				08982DBD1D733AC20090D740 /* ViewController.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
